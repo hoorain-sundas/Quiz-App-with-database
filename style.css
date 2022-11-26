@@ -1,0 +1,48 @@
+*{
+    font-family: 'Kanit', sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;  
+}
+.bgDark{
+    background-color: #03071e;
+}
+.textDark{
+    color: #03071e;
+}
+.bgLight{
+    background-color: #ffba08;
+}
+.textLight{
+    color: #ffba08;
+}
+.bgtransparent{
+background-color: #212529;
+}
+#showResult{
+    display: none;
+    padding: 10px;
+    color: black;
+    position: fixed;
+    top: 130px;
+    left: 500px;
+    background-color: white;
+    box-shadow: 0 1rem 1rem -0.7rem rgba(0, 0, 0, 0.4);
+}
+
+.btn:focus {
+    background-color: #ffc107 !important;
+    color: black;
+}
+.listyle{
+    list-style: none;
+}
+/* #displayOption{
+    display: inline-block !important;
+} */
+#start{
+    display: block;
+}
+#mainScreen{
+    display: none;
+}
